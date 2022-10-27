@@ -622,6 +622,7 @@ transition: opasity 250ms var(--function), visibility 250ms var(--function);
 .modal-close{
   position: absolute;
   display: flex;
+  top: 10px;
   right: 10px;
   align-items: center;
   justify-content: center;
@@ -634,7 +635,7 @@ border-radius: 50%;
 }
 
 .modal-close-icon{
-
+fill: #000000;
 
 }
 
